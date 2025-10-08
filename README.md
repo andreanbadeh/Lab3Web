@@ -9,12 +9,33 @@ KELAS : TI.24.4.3
 # Langkah-langkah Praktikum
 1. Persiapan membuat dokumen HTML dengan nama file lab3_list.html seperti berikut. Membuat Ordered List. 
 Kemudian tambahkan kode untuk membuat Ordered List seperti berikut.
-
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/134ad43ecb71039429d3be8a9127d26dfaeae116/Cuplikan%20layar%202025-10-07%20103736.png)
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat List</h1>
+    </header>
+    <section id="order-list">
+        <h2>Ordered List</h2>
+        <ol>
+            <li>Pemrograman Web</li>
+            <li>Sistem Informasi</li>
+            <li>Basis Data 2</li>
+        </ol>
+    </section>
+</body>
+</html>
+```
 
 Hasilnya : 
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/134ad43ecb71039429d3be8a9127d26dfaeae116/Cuplikan%20layar%202025-10-07%20103748.png)
+![gambar](https://github.com/andreanbadeh/Lab3Web/blob/a99bd2d7c0e05b556371c98bc0833851fe9697e8/images/Screenshot%20from%202025-10-08%2018-52-09.png)
 
 2. Membuat Unorderd List
 Kemudian tambakan kode untuk membuat Unordered List, setelah deklarasi ordered list pada section unordered-list, seperti berikut.
