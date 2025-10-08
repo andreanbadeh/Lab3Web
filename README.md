@@ -227,12 +227,52 @@ Kemudian lihat hasilnya :
 # MEMBUAT FORM
 6. Buat file baru dengan nama lab3_form.html seperti berikut.
 Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut :
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat Form</h1>
+    </header>
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/160e18dcbd9e04c69a6f6949fab1cbb90b98a929/Cuplikan%20layar%202025-10-07%20110713.png)
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>Data Pelanggan</legend>
 
+            <p>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama">
+            </p>
+
+            <p>
+                <label for="alamat">Alamat</label>
+                <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+            </p>
+
+            <p>
+                <label>Jenis Kelamin</label>
+                <input id="jk_l" type="radio" name="kelamin" value="L">
+                <label for="jk_l">Laki-laki</label>
+                <input id="jk_p" type="radio" name="kelamin" value="P">
+                <label for="jk_p">Perempuan</label>
+            </p>
+
+            <p>
+                <input type="submit" value="Login">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
+```
 Lalu lihat hasilnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/160e18dcbd9e04c69a6f6949fab1cbb90b98a929/Cuplikan%20layar%202025-10-07%20110727.png)
+![gambar](https://github.com/andreanbadeh/Lab3Web/blob/3c1a9b7148d02b3c9c95b8b5dff9760716d2861a/images/Screenshot%20from%202025-10-08%2019-09-14.png)
 
 7. Menambahkan Style pada Form
 Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
