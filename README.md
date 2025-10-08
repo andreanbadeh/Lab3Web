@@ -180,12 +180,49 @@ Llau lihat hasilnya :
 
 5. Menggabungkan Sel Data
 Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (secara horizontal).
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat Table</h1>
+    </header>
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/e6afb60f4b56df41d49640205c53bfa8ab82855d/2.1png.png)
-
+    <table border="1" cellpadding="6" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td rowspan="3">Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+```
 Kemudian lihat hasilnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/e6afb60f4b56df41d49640205c53bfa8ab82855d/Cuplikan%20layar%202025-10-07%20110030.png)
+![gambar](https://github.com/andreanbadeh/Lab3Web/blob/cf7b81ea8edb83524ba2e091905c813d4c449c43/images/Screenshot%20from%202025-10-08%2019-06-05.png)
 
 # MEMBUAT FORM
 6. Buat file baru dengan nama lab3_form.html seperti berikut.
