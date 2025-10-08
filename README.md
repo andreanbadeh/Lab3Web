@@ -132,12 +132,51 @@ Kemudian lihat hasilnya :
 4. Membuat Tabel
 Buat file baru dengan nama lab3_tabel.html seperti berikut.
 Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut :
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat Table</h1>
+    </header>
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/65ced938969cc60bc7dee07fa47942c4fbdddbe5/2.png)
-
+    <table border="1" cellpadding="4" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+```
 Llau lihat hasilnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/65ced938969cc60bc7dee07fa47942c4fbdddbe5/Cuplikan%20layar%202025-10-07%20105452.png)
+![gambar](https://github.com/andreanbadeh/Lab3Web/blob/fbe072587b640e1dbdd45cf128caa1cb738e3756/images/Screenshot%20from%202025-10-08%2019-03-17.png)
 
 5. Menggabungkan Sel Data
 Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (secara horizontal).
