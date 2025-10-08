@@ -4,7 +4,7 @@ Nama : ANDREAN PUTRA ARYA
 
 NIM : 312410341
 
-KELAS : TI.24.4.3
+KELAS : TI.24.a/4
 
 # Langkah-langkah Praktikum
 1. Persiapan membuat dokumen HTML dengan nama file lab3_list.html seperti berikut. Membuat Ordered List. 
@@ -270,16 +270,75 @@ Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti beriku
 </body>
 </html>
 ```
-Lalu lihat hasilnya :
+Kemudian lihat hasilnya :
 
 ![gambar](https://github.com/andreanbadeh/Lab3Web/blob/3c1a9b7148d02b3c9c95b8b5dff9760716d2861a/images/Screenshot%20from%202025-10-08%2019-09-14.png)
 
 7. Menambahkan Style pada Form
 Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat Form</h1>
+    </header>
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/15495b9cd4463061509713d55bfa78f791029493/2.2png.png)
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>Data Pelanggan</legend>
+
+            <p>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama">
+            </p>
+
+            <p>
+                <label for="alamat">Alamat</label>
+                <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+            </p>
+
+            <p>
+                <label>Jenis Kelamin</label>
+                <input id="jk_l" type="radio" name="kelamin" value="L">
+                <label for="jk_l">Laki-laki</label>
+                <input id="jk_p" type="radio" name="kelamin" value="P">
+                <label for="jk_p">Perempuan</label>
+            </p>
+
+            <p>
+                <input type="submit" value="Login">
+            </p>
+        </fieldset>
+    </form>
+
+    <style>
+        form p label {
+            display: inline-block;
+            width: 100px;
+        }
+
+        form input[type="text"], form textarea {
+            border: 1px solid #197a43;
+        }
+
+        input[type="submit"] {
+            border: 1px solid #197a43;
+            background-color: #197a43;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+    </style>
+</body>
+</html>
+```
 
 Kemudian, lihat hasilnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/15495b9cd4463061509713d55bfa78f791029493/Cuplikan%20layar%202025-10-07%20111205.png)
-
+![gambar](https://github.com/andreanbadeh/Lab3Web/blob/aa96d800aefbc05d4612b76d79dc8806d058f088/images/Screenshot%20from%202025-10-08%2019-12-27.png)
