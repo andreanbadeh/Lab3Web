@@ -39,9 +39,38 @@ Hasilnya :
 
 2. Membuat Unorderd List
 Kemudian tambakan kode untuk membuat Unordered List, setelah deklarasi ordered list pada section unordered-list, seperti berikut.
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat List</h1>
+    </header>
+    <section id="order-list">
+        <h2>Ordered List</h2>
+        <ol>
+            <li>Pemrograman Web</li>
+            <li>Sistem Informasi</li>
+            <li>Basis Data 2</li>
+        </ol>
+    </section>
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/fb7154397e046ab5ad2b51b4dc29e83c50c879e9/Cuplikan%20layar%202025-10-07%20103927.png)
-
+    <section id="unorder-list">
+        <h2>Unordered List</h2>
+        <ul type="square">
+            <li>Jaringan Komputer</li>
+            <li>Struktur Data</li>
+            <li>Algoritma &amp; Pemrograman</li>
+        </ul>
+    </section>
+</body>
+</html>
+```
 Lalu buktikan hasilnya :
 
 ![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/fb7154397e046ab5ad2b51b4dc29e83c50c879e9/Cuplikan%20layar%202025-10-07%20103938.png)
