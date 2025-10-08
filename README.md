@@ -4,7 +4,7 @@ Nama : ANDREAN PUTRA ARYA
 
 NIM : 312410341
 
-KELAS : TI.24.a/4
+KELAS : TI.24.A.4
 
 # Langkah-langkah Praktikum
 1. Persiapan membuat dokumen HTML dengan nama file lab3_list.html seperti berikut. Membuat Ordered List. 
