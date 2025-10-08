@@ -77,12 +77,56 @@ Lalu buktikan hasilnya :
 
 3. Membuat Description List
 Kemudian tambahkan kode untuk membuat description list setelah deklarasi unorderd-list.
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat List</h1>
+    </header>
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/8603c389fd644ef7a66e0bdba3f236b7fe664162/code2.3.png)
+    <section id="order-list">
+        <h2>Ordered List</h2>
+        <ol>
+            <li>Pemrograman Web</li>
+            <li>Sistem Informasi</li>
+            <li>Basis Data 2</li>
+        </ol>
+    </section>
 
+    <section id="unorder-list">
+        <h2>Unordered List</h2>
+        <ul type="square">
+            <li>Jaringan Komputer</li>
+            <li>Struktur Data</li>
+            <li>Algoritma &amp; Pemrograman</li>
+        </ul>
+    </section>
+
+    <section id="unorder-list">
+        <h2>Description List</h2>
+        <dl>
+            <dt>Fakultas Teknik</dt>
+            <dd>Teknik Industri</dd>
+            <dd>Teknik Informatika</dd>
+            <dd>Teknik Lingkungan</dd>
+            <dt>Fakultas Ekonomi dan Bisnis</dt>
+            <dd>Akuntansi</dd>
+            <dd>Manajemen</dd>
+            <dd>Bisnis Digital</dd>
+        </dl>
+    </section>
+</body>
+</html>
+```
 Kemudian lihat hasilnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab3Web/8603c389fd644ef7a66e0bdba3f236b7fe664162/Cuplikan%20layar%202025-10-07%20185900.png)
+![gambar](https://github.com/andreanbadeh/Lab3Web/blob/4ad7c16e91b190f22b2725d2f9520d5aef010f2e/images/Screenshot%20from%202025-10-08%2018-59-26.png)
 
 # MEMBUAT TABEL
 4. Membuat Tabel
