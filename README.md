@@ -363,3 +363,40 @@ Kemudian, lihat hasilnya :
 # Pertanyaan Dan Tugas 
 ![gambar](https://github.com/andreanbadeh/Lab3Web/blob/207aa04c3ebac5aa2e599bca620f5a1b1a1723a3/images/Screenshot%20from%202025-10-09%2013-37-49.png)
 
+```
+<p>
+    <label for="kota">Kota:</label>
+    <select id="kota" name="kota">
+        <option value="">-- Pilih Kota --</option>
+        <option value="jakarta">Jakarta</option>
+        <option value="bandung">Bandung</option>
+        <option value="bekasi">Bekasi</option>
+        <option value="bogor">Bogor</option>
+        <option value="depok">Depok</option>
+        <option value="tangerang">Tangerang</option>
+    </select>
+</p>
+```
+elemen ini disebut dropdown list atau combobox, digunakan untuk memilih satu pilihan kota dari daftar yang sudah disediakan, pengguna hanya bisa memilih satu kota saja karena tidak ada atribut `multiple`.
+
+```
+<p>
+    <label for="hobi">Hobi:</label>
+    <select id="hobi" name="hobi">
+        <option value="">-- Pilih Hobi --</option>
+        <option value="membaca">Membaca</option>
+        <option value="menulis">Menulis</option>
+        <option value="olahraga">Olahraga</option>
+        <option value="musik">Musik</option>
+        <option value="gaming">Gaming</option>
+    </select>
+</p>
+```
+ini juga dropdown list, sama seperti kota, pengguna bisa memilih satu hobi dari daftar yang tersedia, kalau ingin menjadikannya listbox (bisa pilih banyak), cukup tambahkan atribut `multiple` 
+seperti ini:
+```
+<select id="hobi" name="hobi" multiple size="5">
+```
+`multiple` = memungkinkan memilih lebih dari satu hobi
+
+`size="5"` = menampilkan semua opsi seperti kotak (listbox)
