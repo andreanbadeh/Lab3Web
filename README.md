@@ -292,17 +292,14 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
     <form action="proses.php" method="post">
         <fieldset>
             <legend>Data Pelanggan</legend>
-
             <p>
                 <label for="nama">Nama:</label>
                 <input type="text" id="nama" name="nama">
             </p>
-
             <p>
                 <label for="alamat">Alamat</label>
                 <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
             </p>
-
             <p>
                 <label>Jenis Kelamin</label>
                 <input id="jk_l" type="radio" name="kelamin" value="L">
@@ -310,20 +307,41 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
                 <input id="jk_p" type="radio" name="kelamin" value="P">
                 <label for="jk_p">Perempuan</label>
             </p>
-
+            <p>
+                <label for="kota">Kota:</label>
+                <select id="kota" name="kota">
+                    <option value="">-- Pilih Kota --</option>
+                    <option value="jakarta">Jakarta</option>
+                    <option value="bandung">Bandung</option>
+                    <option value="bekasi">Bekasi</option>
+                    <option value="bogor">Bogor</option>
+                    <option value="depok">Depok</option>
+                    <option value="tangerang">Tangerang</option>
+                </select>
+            </p>
+            <p>
+                <label for="hobi">Hobi:</label>
+                <select id="hobi" name="hobi">
+                    <option value="">-- Pilih Hobi --</option>
+                    <option value="membaca">Membaca</option>
+                    <option value="menulis">Menulis</option>
+                    <option value="olahraga">Olahraga</option>
+                    <option value="musik">Musik</option>
+                    <option value="gaming">Gaming</option>
+                </select>
+            </p>
             <p>
                 <input type="submit" value="Login">
             </p>
         </fieldset>
     </form>
-
     <style>
         form p label {
             display: inline-block;
             width: 100px;
         }
 
-        form input[type="text"], form textarea {
+        form input[type="text"], form textarea, select {
             border: 1px solid #197a43;
         }
 
@@ -338,7 +356,6 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 </body>
 </html>
 ```
-
 Kemudian, lihat hasilnya :
 
-![gambar](https://github.com/andreanbadeh/Lab3Web/blob/aa96d800aefbc05d4612b76d79dc8806d058f088/images/Screenshot%20from%202025-10-08%2019-12-27.png)
+![gambar](https://github.com/andreanbadeh/Lab3Web/blob/0357616d2c40784d531e24255a29118e1695cee8/images/Screenshot%20from%202025-10-09%2013-32-31.png)
