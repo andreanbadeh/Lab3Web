@@ -1,4 +1,4 @@
-# Modul Praktikum Membuat List Pemrograman Web 1
+# Praktikum Membuat List Pemrograman Web 1
 
 Nama : ANDREAN PUTRA ARYA
 
