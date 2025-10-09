@@ -359,3 +359,7 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 Kemudian, lihat hasilnya :
 
 ![gambar](https://github.com/andreanbadeh/Lab3Web/blob/0357616d2c40784d531e24255a29118e1695cee8/images/Screenshot%20from%202025-10-09%2013-32-31.png)
+
+# Pertanyaan Dan Tugas 
+![gambar](https://github.com/andreanbadeh/Lab3Web/blob/207aa04c3ebac5aa2e599bca620f5a1b1a1723a3/images/Screenshot%20from%202025-10-09%2013-37-49.png)
+
